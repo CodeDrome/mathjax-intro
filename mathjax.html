@@ -1,0 +1,70 @@
+<!doctype html>
+
+<html>
+
+<head>
+	<meta charset="utf-8"/>
+    <title>Introduction to MathJax</title>
+    <script id="MathJax-script" 
+    async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+</head>
+
+<body>
+
+
+<h1>An Introduction to the MathJax JavaScript Tex Library</h1>
+
+
+<h2>TeX Enclosed in \$\$ . . . \$\$</h2>
+
+<p>\$\$F = G{\frac{m_1m_2}{r^2}}\$\$</p>
+
+<p>$$F = G{\frac{m_1m_2}{r^2}}$$</p>
+
+
+<h2>TeX Enclosed in \\[ . . . \\]</h2>
+
+<p>\\[F = G{\frac{m_1m_2}{r^2}}\\]</p>
+
+<p>\[F = G{\frac{m_1m_2}{r^2}}\]</p>
+
+
+<h2>Inline TeX Enclosed in \\( . . . \\)</h2>
+
+<p>Newton's Second Law of Motion \(F=ma\)</p>
+
+
+<h2>Invalid TeX</h2>
+
+<p>\[\frac{3}\]</p>
+
+
+<h2>Using align from the ams Package</h2>
+
+<p>\\[<br>
+\\begin{align}<br>
+2x + y  &= 7 \\\\<br>
+3x + 4y &= 12 \\\\<br>
+5x + y &= 9<br>
+\\end{align}<br>
+\\]</p>
+
+<p>\[
+\begin{align}
+2x + y  &= 7 \\
+3x + 4y &= 12 \\
+5x + y &= 9<br>
+\end{align}
+\]</p>
+
+
+<h2>Using the color Package</h2>
+
+<p>\[\color{red}{Red}\]</p>
+<p>\[\color{green}{Green}\]</p>
+<p>\[\color{blue}{Blue}\]</p>
+
+
+</body>
+
+</html>
